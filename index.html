@@ -14,37 +14,41 @@
         align-items: center;
       "
     >
-      <div
+      <nav
         style="
           display: flex;
           min-width: 50%;
           justify-content: center;
           align-items: center;
+          border: 1px solid #d00;
         "
       >
-        <!-- Logo and Nav container -->
-        <span
-          id="logo"
+        <a
+          href="./index.html"
           style="
-            min-width: 50%;
             font-family: Raleway;
             font-size: 18px;
             font-weight: 800;
             line-height: 21px;
             letter-spacing: 0.03em;
             text-align: center;
+            text-decoration: none;
+            background: linear-gradient(
+              90deg,
+              rgba(77, 90, 229, 1) 0%,
+              rgba(77, 90, 229, 1) 37%,
+              rgba(46, 47, 66, 1) 37%
+            );
+            -webkit-background-clip: text;
+            color: transparent;
           "
         >
-          <!-- Logo container-->
-          <a href="index.html" style="text-decoration: none">
-            <span style="color: #4d5ae5">WEB</span
-            ><span style="color: #2e2f42">STUDIO</span>
-          </a>
-        </span>
-        <nav
+          WEBSTUDIO
+        </a>
+        <ul
           id="navigation"
           style="
-            display: flex;
+            display: inline;
             min-width: 50%;
             font-family: Roboto;
             font-size: 16px;
@@ -52,16 +56,33 @@
             line-height: 24px;
             letter-spacing: 0.02em;
             text-align: center;
-            gap: 40px;
           "
         >
           <!---Navigation container-->
-          <span style="color: #2e2f42">Studio</span>
-          <span style="color: #2e2f42">Portfolio</span>
-          <span style="color: #2e2f42">Contacts</span>
-        </nav>
-      </div>
-      <span
+          <li style="padding-right: 36px; display: inline">
+            <a
+              href="./studio.html"
+              style="text-decoration: none; color: #2e2f42"
+              >Studio</a
+            >
+          </li>
+          <li style="padding-right: 36px; display: inline">
+            <a
+              href="./studio.html"
+              style="text-decoration: none; color: #2e2f42"
+              >Portfolio</a
+            >
+          </li>
+          <li style="display: inline">
+            <a
+              href="./studio.html"
+              style="text-decoration: none; color: #2e2f42"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <address
         style="
           display: flex;
           min-width: 50%;
@@ -76,9 +97,27 @@
         "
       >
         <!-- email and phone number container-->
-        <span style="padding-right: 40px">info@devstudio.com</span>
-        <span>+11 (000) 111-11-11</span>
-      </span>
+        <a
+          href="mailto:info@devstudio.com"
+          style="
+            text-decoration: none;
+            font-style: normal;
+            color: #2e2f42;
+            padding-right: 40px;
+          "
+          >info@devstudio.com</a
+        >
+        <a
+          href="tel:+110001111111"
+          style="
+            text-decoration: none;
+            font-style: normal;
+            color: #2e2f42;
+            padding-right: 40px;
+          "
+          >+11 (000) 111-11-11</a
+        >
+      </address>
     </header>
     <main>
       <div
