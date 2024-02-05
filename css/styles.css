@@ -4,4 +4,61 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', Roboto, sans-serif;
+  color: rgb(46, 47, 66);
+  list-style: none;
+}
+
+.debug {
+  border: 1px solid #d00;
+}
+
+.header-desktop {
+  display: flex;
+}
+
+.header-nav {
+  display: inherit;
+  min-width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-inline {
+  display: inline;
+}
+
+.list-item {
+  padding-right: 40px;
+}
+
+.logo-link {
+  padding: 0 40px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  background: linear-gradient(
+    90deg,
+    rgb(77, 90, 229) 0%,
+    rgb(77, 90, 229) 37%,
+    rgb(46, 47, 66) 37%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.ref-nav {
+  text-decoration: none;
+  color: rgb(46, 47, 66);
+}
+
+.ref-addr{
+  font-style: normal;
+}
+
+.address-header {
+  display: flex;
+  min-width: 50%;
+  justify-content: center;
 }
