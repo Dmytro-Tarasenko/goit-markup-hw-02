@@ -13,6 +13,7 @@ body {
 
 .header-desktop {
   display: flex;
+  border-bottom: 1px solid rgb(231, 233, 252);
 }
 
 .header-nav {
@@ -21,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 72px;
+  
 }
 
 .list-inline {
@@ -57,7 +59,7 @@ body {
   padding-bottom: 4px;
 }
 
-.ref-nav:hover{
+.ref-nav:hover {
   color: rgb(64, 75, 191);
   border-bottom: 3px solid rgb(64, 75, 191);
 }
@@ -104,7 +106,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button-primary:hover{
+.button-primary:hover {
   background: rgb(64, 75, 191);
 }
 
@@ -187,9 +189,22 @@ body {
   padding: 0;
 }
 
-.text-footer{
+.text-footer {
   line-height: 24px;
   letter-spacing: 0.02em;
   width: 264px;
   color: rgb(244, 244, 253);
+}
+
+.button-filter {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: rgb(244, 244, 253);
+  border: 1px solid rgb(231, 233, 252);
+  color: rgba(77, 90, 229, 1);
+}
+
+.button-filter:hover {
+  background-color: rgb(64, 75, 191);
+  color: rgb(255, 255, 255);
 }
