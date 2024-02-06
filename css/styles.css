@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900;&display=swap");
-
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", Roboto, sans-serif;
-  color: rgb(46, 47, 66);
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 
 .debug {
@@ -13,7 +11,7 @@ body {
 
 .header-desktop {
   display: flex;
-  border-bottom: 1px solid rgb(231, 233, 252);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -38,15 +36,15 @@ body {
 
 .logo-link {
   padding: 0 40px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
   background: linear-gradient(
     90deg,
-    rgb(77, 90, 229) 0%,
-    rgb(77, 90, 229) 42%,
-    rgb(46, 47, 66) 42%
+    #4d5ae5 0%,
+    #4d5ae5 42%,
+    #2e2f42 42%
   );
   -webkit-background-clip: text;
   color: transparent;
@@ -55,13 +53,13 @@ body {
 
 .ref-nav {
   text-decoration: none;
-  color: rgb(46, 47, 66);
+  color: #2e2f42;
   padding-bottom: 4px;
 }
 
 .ref-nav:hover {
-  color: rgb(64, 75, 191);
-  border-bottom: 3px solid rgb(64, 75, 191);
+  color: #404bbf;
+  border-bottom: 3px solid #404bbf;
 }
 
 .ref-addr {
@@ -81,12 +79,12 @@ body {
 }
 
 .section1 {
-  background-color: rgb(46, 47, 66);
+  background-color: #2e2f42;
   height: 600px;
 }
 
 .moto {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   width: 496px;
   font-size: 52px;
   text-align: center;
@@ -98,16 +96,15 @@ body {
   width: 169px;
   height: 56px;
   border-radius: 4px;
-  background-color: rgb(77, 90, 229);
+  background-color: #4d5ae5;
   color: rgb(255, 255, 255);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.149);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
 }
 
 .button-primary:hover {
-  background: rgb(64, 75, 191);
+  background: #404bbf;
 }
 
 .header-transparent {
@@ -128,7 +125,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   width: 264px;
-  color: rgb(67, 68, 85);
+  color: #434455;
 }
 
 .section3 {
@@ -145,19 +142,17 @@ body {
 }
 
 .list-item-img {
-  border: 1px solid rgb(231, 233, 252);
+  border: 1px solid #e7e9fc;
 }
 
 .section4 {
   height: 732px;
-  background-color: rgb(244, 244, 253);
+  background-color: #f4f4fd;
 }
 
 .list-item-team {
   height: 380px;
   background-color: #fff;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
 }
 
 .header-team {
@@ -173,16 +168,16 @@ body {
 }
 
 .footer-desktop {
-  background-color: rgb(46, 47, 66);
+  background-color: #2e2f42;
   padding: 100px 156px;
 }
 
 .logo-footer {
   background: linear-gradient(
     90deg,
-    rgb(77, 90, 229) 0%,
-    rgb(77, 90, 229) 37%,
-    rgb(255, 255, 255) 37%
+    #4d5ae5 0%,
+    #4d5ae5 37%,
+    #ffffff 37%
   );
   -webkit-background-clip: text;
   color: transparent;
@@ -193,18 +188,18 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   width: 264px;
-  color: rgb(244, 244, 253);
+  color: #f4f4fd;
 }
 
 .button-filter {
   padding: 12px 24px;
   border-radius: 4px;
-  background: rgb(244, 244, 253);
-  border: 1px solid rgb(231, 233, 252);
-  color: rgba(77, 90, 229, 1);
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  color: #4d5ae5;
 }
 
 .button-filter:hover {
-  background-color: rgb(64, 75, 191);
-  color: rgb(255, 255, 255);
+  background-color: #404bbf;
+  color: #ffffff;
 }
