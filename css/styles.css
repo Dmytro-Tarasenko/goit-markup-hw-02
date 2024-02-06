@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .debug {
@@ -16,17 +15,15 @@ body {
 
 .header-nav {
   display: inherit;
-  min-width: 50%;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   height: 72px;
-  
 }
 
 .list-inline {
   display: inline-flex;
   list-style: none;
-  align-items: center;
+  align-content: center;
 }
 
 .list-item {
@@ -35,17 +32,11 @@ body {
 }
 
 .logo-link {
-  padding: 0 40px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
-  background: linear-gradient(
-    90deg,
-    #4d5ae5 0%,
-    #4d5ae5 42%,
-    #2e2f42 42%
-  );
+  background: linear-gradient(90deg, #4d5ae5 0%, #4d5ae5 42%, #2e2f42 42%);
   -webkit-background-clip: text;
   color: transparent;
   text-transform: uppercase;
@@ -54,7 +45,6 @@ body {
 .ref-nav {
   text-decoration: none;
   color: #2e2f42;
-  padding-bottom: 4px;
 }
 
 .ref-nav:hover {
@@ -68,7 +58,7 @@ body {
 
 .address-header {
   display: flex;
-  min-width: 50%;
+
   justify-content: center;
 }
 
@@ -85,7 +75,7 @@ body {
 
 .moto {
   color: #ffffff;
-  width: 496px;
+
   font-size: 52px;
   text-align: center;
   line-height: 60px;
@@ -93,8 +83,6 @@ body {
 }
 
 .button-primary {
-  width: 169px;
-  height: 56px;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
@@ -124,13 +112,8 @@ body {
 .text-features {
   font-size: 16px;
   font-weight: 400;
-  width: 264px;
-  color: #434455;
-}
 
-.section3 {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  color: #434455;
 }
 
 .header-section {
@@ -169,31 +152,22 @@ body {
 
 .footer-desktop {
   background-color: #2e2f42;
-  padding: 100px 156px;
 }
 
 .logo-footer {
-  background: linear-gradient(
-    90deg,
-    #4d5ae5 0%,
-    #4d5ae5 37%,
-    #ffffff 37%
-  );
+  background: linear-gradient(90deg, #4d5ae5 0%, #4d5ae5 37%, #ffffff 37%);
   -webkit-background-clip: text;
   color: transparent;
-  padding: 0;
 }
 
 .text-footer {
   line-height: 24px;
   letter-spacing: 0.02em;
-  width: 264px;
+
   color: #f4f4fd;
 }
 
 .button-filter {
-  padding: 12px 24px;
-  border-radius: 4px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   color: #4d5ae5;
