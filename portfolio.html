@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>WebStudio - Portfolio - GoIT HTML-CSS 1.1 HW #2</title>
+    <title>WebStudio - GoIT HTML-CSS 1.1 HW #1</title>
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -24,13 +24,13 @@
       </nav>
       <address class="address-header">
         <!-- email and phone number container-->
-        <ul style="display: inline">
-          <li style="display: inline">
+        <ul class="list-inline">
+          <li class="list-item">
             <a href="mailto:info@devstudio.com" class="ref-nav ref-addr">
               info@devstudio.com
             </a>
           </li>
-          <li style="display: inline">
+          <li class="list-item">
             <a href="tel:+110001111111" class="ref-nav ref-addr"
               >+11 (000) 111-11-11</a
             >
@@ -38,265 +38,94 @@
         </ul>
       </address>
     </header>
+
     <main>
-      <section
-        id="section1"
-        style="
-          display: grid;
-          height: 600px;
-          justify-items: center;
-          align-content: center;
-          background-color: #2e2f42;
-          font-family: Roboto;
-        "
-      >
-        <h1
-          style="
-            color: #fff;
-            width: 496px;
-            font-size: 50px;
-            text-align: center;
-            line-height: 60px;
-            letter-spacing: 0.02em;
-          "
-        >
-          Effective Solutions for Your Business
-        </h1>
-        <button
-          type="button"
-          style="
-            width: 169px;
-            height: 56px;
-            border-radius: 4px;
-            gap: 10px;
-            background-color: #4d5ae5;
-            align-self: center;
-            color: #fff;
-            box-shadow: 0px 4px 4px 0px #00000026;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px;
-            letter-spacing: 0.04em;
-          "
-        >
-          Order Service
-        </button>
+      <section id="section1" class="section section1">
+        <h1 class="moto">Effective Solutions for Your Business</h1>
+        <button type="button" class="button-primary">Order Service</button>
       </section>
-      <section
-        id="section2"
-        style="display: grid; align-items: center; justify-items: center"
-      >
-        <h2 style="color: transparent; line-height: 48px">Features</h2>
-        <ul style="display: inline">
-          <li style="display: inline-block; gap: 8px">
-            <h3
-              style="
-                font-size: 24px;
-                font-weight: 500;
-                margin-top: 0px;
-                color: #2e2f42;
-              "
-            >
-              Strategy
-            </h3>
-            <p
-              style="
-                font-size: 16px;
-                font-weight: 400;
-                width: 264px;
-                color: #434455;
-              "
-            >
+
+      <section id="section2" class="section section2">
+        <h2 class="header-transparent">Features</h2>
+        <ul class="list-inline">
+          <li class="list-item list-item-features">
+            <h3 class="header-features">Strategy</h3>
+            <p class="text-features">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li style="display: inline-block">
-            <h3
-              style="
-                font-size: 24px;
-                font-weight: 500;
-                margin-top: 0px;
-                color: #2e2f42;
-              "
-            >
-              Punctuality
-            </h3>
-            <p
-              style="
-                font-size: 16px;
-                font-weight: 400;
-                width: 264px;
-                color: #434455;
-              "
-            >
+          <li class="list-item list-item-features">
+            <h3 class="header-features">Punctuality</h3>
+            <p class="text-features">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li style="display: inline-block">
-            <h3
-              style="
-                font-size: 24px;
-                font-weight: 500;
-                margin-top: 0px;
-                color: #2e2f42;
-              "
-            >
-              Diligence
-            </h3>
-            <p
-              style="
-                font-size: 16px;
-                font-weight: 400;
-                width: 264px;
-                color: #434455;
-              "
-            >
+          <li class="list-item list-item-features">
+            <h3 class="header-features">Diligence</h3>
+            <p class="text-features">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li style="display: inline-block">
-            <h3
-              style="
-                font-size: 24px;
-                font-weight: 500;
-                margin-top: 0px;
-                color: #2e2f42;
-              "
-            >
-              Technologies
-            </h3>
-            <p
-              style="
-                font-size: 16px;
-                font-weight: 400;
-                width: 264px;
-                color: #434455;
-              "
-            >
+          <li class="list-item list-item-features">
+            <h3 class="header-features">Technologies</h3>
+            <p class="text-features">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section
-        id="section3"
-        style="
-          display: grid;
-          justify-content: center;
-          align-content: center;
-          padding-top: 60px;
-          padding-bottom: 120px;
-        "
-      >
-        <h2
-          style="
-            font-family: Roboto;
-            font-size: 36px;
-            font-weight: 700;
-            color: #2e2f42;
-            justify-self: center;
-            text-transform: capitalize;
-          "
-        >
-          What are we doing
-        </h2>
-        <ul style="display: inline; gap: 16px">
-          <li style="display: inline; padding-right: 36px">
+
+      <section id="section3" class="section section3">
+        <h2 class="header-section capitalized">What are we doing</h2>
+        <ul class="list-inline">
+          <li class="list-item">
             <img
               src="./images/desktop.jpg"
               alt="Desktop image"
               width="360"
               height="300"
-              style="border: 1px solid #e7e9fc"
+              class="list-item-img"
             />
           </li>
-          <li style="display: inline; padding-right: 36px">
+          <li class="list-item">
             <img
               src="./images/tg_layers.jpg"
               alt="Telegram layers"
               width="360"
               height="300"
-              style="border: 1px solid #e7e9fc"
+              class="list-item-img"
             />
           </li>
-          <li style="display: inline">
+          <li class="list-item">
             <img
               src="./images/laptop_phone.jpg"
               alt="Laptop plus phone"
               width="360"
               height="300"
-              style="border: 1px solid #e7e9fc"
+              class="list-item-img"
             />
           </li>
         </ul>
       </section>
 
-      <section
-        id="section4"
-        style="
-          display: grid;
-          height: 732px;
-          justify-content: center;
-          align-content: center;
-          background-color: #f4f4fd;
-        "
-      >
-        <h2
-          style="
-            font-family: Roboto;
-            font-size: 36px;
-            font-weight: 700;
-            color: #2e2f42;
-            justify-self: center;
-          "
-        >
-          Our Team
-        </h2>
-        <ul id="team_cards" style="display: flex; width: 100%; gap: 32px">
-          <li
-            style="
-              display: inline-block;
-              margin: 0;
-              width: 264px;
-              height: 380px;
-              background-color: #fff;
-              border-radius: 0px 0px 4px 4px;
-              box-shadow: 0px 2px 1px 0px #2e2f4214;
-              justify-items: center;
-              align-items: center;
-            "
-          >
+      <section id="section4" class="section section4">
+        <h2 class="header-section">Our Team</h2>
+        <ul id="team_cards" class="list-inline">
+          <li class="list-item list-item-team">
             <img
               src="./images/mark_guerrero.jpg"
               alt="Mark`s Guerrero photo"
               width="264"
               height="260"
             />
-
-            <h3 style="display: flex; justify-content: center; margin: 4px 0px">
-              Mark Guerrero
-            </h3>
-            <p style="display: flex; justify-content: center; margin: 4px 0px">
-              Product Designer
-            </p>
+            <h3 class="header-team">Mark Guerrero</h3>
+            <p class="text-team">Product Designer</p>
           </li>
-          <li
-            style="
-              display: inline;
-              margin: 0;
-              width: 264px;
-              height: 380px;
-              background-color: #fff;
-              border-radius: 0px 0px 4px 4px;
-              box-shadow: 0px 2px 1px 0px #2e2f4214;
-              justify-items: center;
-              align-items: center;
-            "
-          >
+          <li li class="list-item list-item-team">
             <img
               src="./images/tom_ford.jpg"
               alt="Tom`s Ford photo"
@@ -304,26 +133,10 @@
               height="260"
             />
 
-            <h3 style="display: flex; justify-content: center; margin: 4px 0px">
-              Tom Ford
-            </h3>
-            <p style="display: flex; justify-content: center; margin: 4px 0px">
-              Frontend Developer
-            </p>
+            <h3 class="header-team">Tom Ford</h3>
+            <p class="text-team">Frontend Developer</p>
           </li>
-          <li
-            style="
-              display: inline-block;
-              margin: 0;
-              width: 264px;
-              height: 380px;
-              background-color: #fff;
-              border-radius: 0px 0px 4px 4px;
-              box-shadow: 0px 2px 1px 0px #2e2f4214;
-              justify-items: center;
-              align-items: center;
-            "
-          >
+          <li li class="list-item list-item-team">
             <img
               src="./images/camila_garcia.jpg"
               alt="Camila`s Garcia photo"
@@ -331,26 +144,10 @@
               height="260"
             />
 
-            <h3 style="display: flex; justify-content: center; margin: 4px 0px">
-              Camila Garcia
-            </h3>
-            <p style="display: flex; justify-content: center; margin: 4px 0px">
-              Marketing
-            </p>
+            <h3 class="header-team">Camila Garcia</h3>
+            <p class="text-team">Marketing</p>
           </li>
-          <li
-            style="
-              display: inline-block;
-              margin: 0;
-              width: 264px;
-              height: 380px;
-              background-color: #fff;
-              border-radius: 0px 0px 4px 4px;
-              box-shadow: 0px 2px 1px 0px #2e2f4214;
-              justify-items: center;
-              align-items: center;
-            "
-          >
+          <li li class="list-item list-item-team">
             <img
               src="./images/daniel_wilson.jpg"
               alt="Daniel`s Wilson photo"
@@ -358,47 +155,16 @@
               height="260"
             />
 
-            <h3 style="display: flex; justify-content: center; margin: 4px 0px">
-              Daniel Wilson
-            </h3>
-            <p style="display: flex; justify-content: center; margin: 4px 0px">
-              UI Designer
-            </p>
+            <h3 class="header-team">Daniel Wilson</h3>
+            <p class="text-team">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer id="footer" style="background-color: #2e2f42; padding: 100px 156px">
-      <a
-        href="./index.html"
-        style="
-          text-decoration: none;
-          font-size: 18px;
-          font-weight: 800;
-          line-height: 21px;
-          letter-spacing: 0.03em;
-          background: linear-gradient(
-            90deg,
-            rgba(77, 90, 229, 1) 0%,
-            rgba(77, 90, 229, 1) 37%,
-            rgba(244, 244, 253, 1) 37%
-          );
-          -webkit-background-clip: text;
-          color: transparent;
-          text-transform: uppercase;
-        "
-        >WebStudio
-      </a>
-      <p
-        style="
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-          letter-spacing: 0.02em;
-          width: 264px;
-          color: rgb(244, 244, 253);
-        "
-      >
+
+    <footer id="footer" class="footer-desktop">
+      <a href="./index.html" class="logo-link logo-footer">WebStudio </a>
+      <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
