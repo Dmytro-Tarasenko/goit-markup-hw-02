@@ -10,7 +10,7 @@ body {
 
 .header-desktop {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-nav {
@@ -49,7 +49,7 @@ body {
 
 .ref-nav:hover {
   color: #404bbf;
-  border-bottom: 3px solid #404bbf;
+
 }
 
 .ref-addr {
