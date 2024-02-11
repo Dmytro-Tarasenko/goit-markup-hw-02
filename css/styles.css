@@ -78,6 +78,8 @@ body {
 
 .ref-addr {
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-header {
