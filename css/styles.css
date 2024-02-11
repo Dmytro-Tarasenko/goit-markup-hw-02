@@ -14,25 +14,24 @@ body {
 }
 
 .header-desktop {
-  display: flex;
+  list-style: inherit;
 
 }
 
 .header-nav {
-  display: inherit;
   justify-content: center;
   align-content: center;
   height: 72px;
 }
 
 .list-inline {
-  display: inline-flex;
+
   list-style: none;
   align-content: center;
 }
 
 .list-item {
-  display: inline;
+
   margin-right: 40px;
 }
 
@@ -62,13 +61,10 @@ body {
 }
 
 .address-header {
-  display: flex;
-
   justify-content: center;
 }
 
 .section {
-  display: grid;
   justify-items: center;
   align-content: center;
 }
@@ -80,7 +76,6 @@ body {
 
 .moto {
   color: #ffffff;
-
   font-size: 52px;
   text-align: center;
   line-height: 60px;
@@ -134,23 +129,23 @@ body {
 }
 
 .section4 {
-  height: 732px;
+
   background-color: #f4f4fd;
 }
 
 .list-item-team {
-  height: 380px;
+
   background-color: #fff;
 }
 
 .header-team {
-  display: flex;
+
   justify-content: center;
   margin: 18px 0px;
 }
 
 .text-team {
-  display: flex;
+
   justify-content: center;
   font-size: 18px;
 }
