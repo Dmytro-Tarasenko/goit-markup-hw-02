@@ -93,7 +93,7 @@ body {
   align-content: center;
 }
 
-.section_one {
+.section-one {
   background-color: #2e2f42;
 
 }
@@ -127,6 +127,14 @@ body {
   line-height: 48px;
 }
 
+.header-txt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
 .list-item-features {
   margin-right: 16px;
 }
@@ -139,7 +147,8 @@ body {
 .text-features {
   font-size: 16px;
   font-weight: 400;
-
+  line-height: 1.5;
+  letter-spacing: 0.02;
   color: #434455;
 }
 
