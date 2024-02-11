@@ -21,7 +21,7 @@ body {
 .header-nav {
   justify-content: center;
   align-content: center;
-  height: 72px;
+
 }
 
 .list-inline {
@@ -71,7 +71,7 @@ body {
 
 .section1 {
   background-color: #2e2f42;
-  height: 600px;
+
 }
 
 .moto {
@@ -83,7 +83,7 @@ body {
 }
 
 .button-primary {
-  border-radius: 4px;
+
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
   font-size: 16px;
