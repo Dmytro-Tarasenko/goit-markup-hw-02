@@ -26,6 +26,10 @@ body {
 
 }
 
+.list {
+  list-style: none;
+}
+
 .list-inline {
 
   list-style: none;
