@@ -148,6 +148,10 @@ body {
   color: var(--navyblue);
 }
 
+.header-examples {
+  line-height: 1.5;
+}
+
 .text-features {
   font-size: 16px;
   font-weight: 400;
