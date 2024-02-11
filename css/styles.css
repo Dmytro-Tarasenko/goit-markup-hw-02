@@ -195,14 +195,12 @@ body {
 
 .footer-desktop {
   background-color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-footer {
-  background: linear-gradient(90deg, #4d5ae5 0%, #4d5ae5 37%, #ffffff 37%);
-  -webkit-background-clip: text;
-  color: transparent;
+.footer-span {
+  color: #f4f4fd;
 }
-
 .text-footer {
   line-height: 24px;
   letter-spacing: 0.02em;
