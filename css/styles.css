@@ -37,6 +37,10 @@ body {
   margin-right: 40px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -47,12 +51,7 @@ body {
   -webkit-background-clip: text; */
   color: var(--iriscolor);
   /* color: transparent; */
-  text-decoration: none;
   text-transform: uppercase;
-}
-
-.iris {
-  color: var(--iriscolor);
 }
 
 .navy-blue { 
