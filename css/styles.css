@@ -127,7 +127,7 @@ body {
   line-height: 48px;
 }
 
-.header-txt {
+.header-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -153,6 +153,10 @@ body {
 }
 
 .header-section {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
   font-size: 36px;
 }
 
