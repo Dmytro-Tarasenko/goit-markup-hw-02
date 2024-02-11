@@ -2,6 +2,7 @@
   --mainbgcolor: #ffffff;
   --iriscolor: #4d5ae5;
   --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
 }
 
 body {
@@ -202,10 +203,10 @@ body {
   color: #f4f4fd;
 }
 
-.text-footer {
+.footer-paragraph {
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .button-filter {
