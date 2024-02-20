@@ -19,13 +19,16 @@ body {
 .header-desktop {
   list-style: inherit;
   display: flex;
+  justify-content: center;
+  padding: 12px 0px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav {
   display: inherit;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-
+  width: 50%;
 }
 
 .list {
@@ -34,8 +37,8 @@ body {
 }
 
 .list-inline {
-
   list-style: none;
+  display: inherit;
   align-content: center;
 }
 
@@ -87,22 +90,27 @@ body {
 }
 
 .address-header {
+  width: 50%;
+  display: inherit;
   font-style: normal;
   justify-content: center;
 }
 
 .section {
-  justify-items: center;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-one {
   background-color: #2e2f42;
-
+  padding: 188px 0px;
+  flex-direction: column;
 }
 
 .moto {
   color: #ffffff;
+  width: 530px;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
@@ -110,6 +118,7 @@ body {
 }
 
 .button-primary {
+  padding: 16px 32px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   background-color: #4d5ae5;
