@@ -18,17 +18,19 @@ body {
 
 .header-desktop {
   list-style: inherit;
-
+  display: flex;
 }
 
 .header-nav {
-  justify-content: center;
-  align-content: center;
+  display: inherit;
+  justify-content: space-around;
+  align-items: center;
 
 }
 
 .list {
   list-style: none;
+  display: inherit;
 }
 
 .list-inline {
